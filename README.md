@@ -28,7 +28,7 @@ _Note: Crashlytics is a crash reporter for Firebase. This assumes that you have 
 - Simulate a test crash. [Instructions](https://firebase.google.com/docs/crashlytics/force-a-crash)
 
 ## How to contribute?
-* Check out contribution guidelines 👉[CONTRIBUTING.md](https://github.com/kevalpatel2106/PasscodeView/blob/master/CONTRIBUTING.md)
+* Check out contribution guidelines 👉[CONTRIBUTING.md](.github/CONTRIBUTING.md)
 
 ## Questions?🤔
 Hit me on twitter [![Twitter](https://img.shields.io/badge/Twitter-@kevalpatel2106-blue.svg?style=flat)](https://twitter.com/kevalpatel2106)
