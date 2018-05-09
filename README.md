@@ -1,5 +1,7 @@
 # GitHub Issue Notifier
 
+#### 🔥 Firebase cloud function to post a GitHub issue whenever new crash🐞 reported in firebase crashalytics.
+
 Identify important conversion workflows in your app, so that when a new issue is reported in that workflow via Crashlytics, an GitHub issue is generated for you.. This will allow you to react quicker to crashes that impact important conversion workflows of your app.
  
 _Note: Crashlytics is a crash reporter for Firebase. This assumes that you have Crashlytics in Firebase. [Learn more about Crashlytics](https://firebase.google.com/docs/crashlytics/)_
