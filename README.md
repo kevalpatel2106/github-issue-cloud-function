@@ -1,4 +1,4 @@
-# GitHub Issue Notifier
+# GitHub Issue Creator
 
 #### 🔥 Firebase cloud function to post a GitHub issue whenever new crash🐞 reported in firebase crashalytics.
 
@@ -24,10 +24,14 @@ _Note: Crashlytics is a crash reporter for Firebase. This assumes that you have 
 	- Config and set the environment variable for the access token and the GitHub repo (in which the new issues will be generated) by running this command: 
 	`firebase functions:config:set github.base_url="https://api.github.com" github.token="<<Personal API tokens>>" issue.title="<<Title of the issue>>" issue.body="<<Text to start body of all issue with.>>" issue.lable="<<Issue lable>>" repo.owner="<<GitHub repo owner>>" repo.repo_name="<<>GitHub project name>"` 
 
-   
+
 ## Deploy and test
 - Deploy your project using `firebase deploy`
 - Simulate a test crash. [Instructions](https://firebase.google.com/docs/crashlytics/force-a-crash)
+
+
+## Sample issue:
+[![sample issue](.github/github_issue.png)](https://github.com/kevalpatel2106/green-build/issues/11)
 
 ## How to contribute?
 * Check out contribution guidelines 👉[CONTRIBUTING.md](.github/CONTRIBUTING.md)
